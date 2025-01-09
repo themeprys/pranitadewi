@@ -1,9 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Inter, Lato } from 'next/font/google'
 
-const lato = Lato({ subsets: ["latin"], weight: ["700"],display: "swap" });
-const inter = Inter({ subsets: ['latin'], weight: ["500"],display: "swap" })
 
 function Header() {
   return (
@@ -14,9 +11,9 @@ function Header() {
             href="/"
             className="text-body-emphasis text-decoration-none"
           >
-            <h1 className={`${lato.className} fs-4`}>
+            <h1 className="fs-4">
               Pranita Dewi</h1>
-              <span className={`${inter.className} h6 text-body-secondary`}> 
+              <span className="h6 text-body-secondary"> 
                 Penulis Puisi | Prosais | Cerpenis
               </span>
           </Link>

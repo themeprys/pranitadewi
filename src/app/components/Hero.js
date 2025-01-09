@@ -1,11 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import { Lato } from "next/font/google";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
-const lato = Lato({ subsets: ["latin"], weight: ["700"], display: "swap" });
 
 function Hero() {
   return (
@@ -21,7 +19,7 @@ function Hero() {
           />
         </div>        
         <div className="col-12 col-md-8 pe-5">
-          <h1 className={`${lato.className} mb-3`}>
+          <h1 className="mb-3">
               Penulis Puisi, Prosais dan Cerpenis<br/>asal Bali, Indonesia
           </h1>
           <p>Pranita Dewi adalah seorang penulis Indonesia yang menulis puisi, prosa lirik, dan cerpen. Kumpulan puisinya yang berjudul Pelacur Para Dewa diterbitkan oleh Komunitas Bambu pada tahun 2006, dan tajuk lainnya, Nyawa Tinggallah Sejenak Lebih Lama diterbitkan oleh Penerbit JBS pada tahun 2024.</p>

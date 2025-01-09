@@ -2,11 +2,9 @@ import React from "react";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { Lato } from "next/font/google";
 import Skills from "./Skills";
 import MultiForm from "./MultiForm";
 
-const lato = Lato({ subsets: ["latin"], weight: ["700"],display: "swap" });
 
 function Leads() {
   return (
@@ -23,7 +21,7 @@ function Leads() {
           <Skills />
         </div>
         <div className="col-12 col-md-7 mt-3 mt-md-5">
-          <h1 className={`${lato.className}`}>
+          <h1>
             Do you have projects to share and kickstarting soon?
           </h1>
           <p>
