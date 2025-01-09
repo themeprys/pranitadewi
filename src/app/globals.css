@@ -62,3 +62,17 @@ a.thm_cta {
 .master_page {
     margin-bottom: 60px;
 }
+
+.pran_heading {
+    width: 90%;
+}
+
+@media only screen and (min-width: 600px) {
+    .pran_desktoponly {
+        display: block;
+    }
+}
+
+.pran_desktoponly {
+    display: none;
+}
