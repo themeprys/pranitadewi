@@ -18,7 +18,7 @@ function Hero() {
             className="img-fluid mb-5 shadow thm_profilepic"
           />
         </div>        
-        <div className="col-12 col-md-8 pe-5">
+        <div className="col-12 col-md-8 pran_hero">
           <h1 className="mb-3 pran_heading">
               Penulis Puisi, Prosais dan Cerpenis asal Bali, Indonesia
           </h1>

@@ -32,7 +32,7 @@ li > a  {
 }
 a.thm_cta {
     font-size: 15px;
-    width: 300px;
+    width: 100%;
     font-size: 16px;
 }
 .thm_profilepic {
@@ -69,10 +69,22 @@ a.thm_cta {
 
 @media only screen and (min-width: 600px) {
     .pran_desktoponly {
-        display: block;
+        display: block !important;
     }
+    a.thm_cta {
+        font-size: 15px;
+        width: 300px;
+        font-size: 16px;
+    }
+    .pran_hero {
+        padding-right:50px !important;
+    }    
 }
 
 .pran_desktoponly {
     display: none;
 }
+
+.pran_hero {
+    padding-right:0px;
+}    
