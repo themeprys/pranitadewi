@@ -28,7 +28,7 @@ function Hero() {
 <li><strong>Pelacur Para Dewa</strong> (Penerbit Komunitas Bambu, 2006)</li>
 <li><strong>Nyawa Tinggallah Sejenak Lebih Lama</strong> (Penerbit JBS, 2024)</li>
 </ul>
-<p>Saat ini menggeluti dunia literasi, kreatif dan penerbitan. Kini tinggal dan bekerja di Bali, Indonesia.</p>
+<p>Saat ini menggeluti dunia literasi dan industri kreatif. Kini tinggal dan bekerja di Bali, Indonesia.</p>
 
 
           {/* <p>Pranita Dewi adalah seorang penulis Indonesia yang menulis puisi, prosa lirik, dan cerpen. Kumpulan puisinya yang berjudul Pelacur Para Dewa diterbitkan oleh Komunitas Bambu pada tahun 2006, dan tajuk lainnya, Nyawa Tinggallah Sejenak Lebih Lama diterbitkan oleh Penerbit JBS pada tahun 2024.</p>

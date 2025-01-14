@@ -48,7 +48,7 @@ function Hero() {
             </li>
           </ul>
           <p>
-            Saat ini menggeluti dunia literasi, kreatif dan penerbitan. Kini
+            Saat ini menggeluti dunia literasi dan industri kreatif. Kini
             tinggal dan bekerja di Bali, Indonesia.
           </p>
           <hr/>
