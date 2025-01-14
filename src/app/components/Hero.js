@@ -22,10 +22,19 @@ function Hero() {
           <h1 className="mb-3 pran_heading">
               Penulis Puisi, Prosais dan Cerpenis asal Bali, Indonesia
           </h1>
-          <p>Pranita Dewi adalah seorang penulis Indonesia yang menulis puisi, prosa lirik, dan cerpen. Kumpulan puisinya yang berjudul Pelacur Para Dewa diterbitkan oleh Komunitas Bambu pada tahun 2006, dan tajuk lainnya, Nyawa Tinggallah Sejenak Lebih Lama diterbitkan oleh Penerbit JBS pada tahun 2024.</p>
+          <p>Pranita Dewi, lahir di Denpasar pada 19 Juni 1987, adalah seorang penulis puisi, prosa liris, dan cerita pendek. Karyanya telah diterbitkan di berbagai media seperti <strong>Kompas</strong>, <strong>Koran Tempo</strong>, <strong>Media Indonesia</strong>, <strong>Bali Post</strong>, <strong>Majalah Sastra Horison</strong>, <strong>Jurnal BlockNot Poetry</strong>, <strong>Jurnal Sundih</strong>, dan <strong>Jurnal Sajak</strong>.</p>
+<p>Pranita telah menerbitkan dua buku:</p>
+<ul>
+<li><strong>Pelacur Para Dewa</strong> (Penerbit Komunitas Bambu, 2006)</li>
+<li><strong>Nyawa Tinggallah Sejenak Lebih Lama</strong> (Penerbit JBS, 2024)</li>
+</ul>
+<p>Saat ini menggeluti dunia literasi, kreatif dan penerbitan. Kini tinggal dan bekerja di Bali, Indonesia.</p>
+
+
+          {/* <p>Pranita Dewi adalah seorang penulis Indonesia yang menulis puisi, prosa lirik, dan cerpen. Kumpulan puisinya yang berjudul Pelacur Para Dewa diterbitkan oleh Komunitas Bambu pada tahun 2006, dan tajuk lainnya, Nyawa Tinggallah Sejenak Lebih Lama diterbitkan oleh Penerbit JBS pada tahun 2024.</p>
           <p className="pran_desktoponly">Beberapa puisinya pernah dimuat di Kompas, Koran Tempo, Media Indonesia, Bali Post, Majalah Sastra Horison, Jurnal BlockNot Poetry, Jurnal Sundih, Jurnal Sajak, Basa Basi.co, Buruan.co dan berbagai media lainnya.</p>
           <p className="pran_desktoponly">Beberapa puisinya juga diterjemahkan ke dalam Bahasa Prancis, bahasa Inggris, dan bahasa Thailand, dan masuk dalam sejumlah antologi, yakni Antologi Couleur Femme yang diterbitkan sebagai salah satu tema acara sastra Prancis Le Printemps des Poètes, Antologi Puisi Penyair Singapore – Indonesia oleh Majelis Sastra Asia Tenggara, dan Antologi Wanna Malai sastra Thailand – Indonesia oleh Dewan Kesenian Jakarta.</p>                
-          <p className="pran_desktoponly">Saat ini menggeluti dunia literasi, kreatif dan penerbitan. Kini tinggal dan bekerja di Bali, Indonesia</p>
+          <p className="pran_desktoponly">Saat ini menggeluti dunia literasi dan industri kreatif. Kini tinggal dan bekerja di Bali, Indonesia</p> */}
           <div className="mt-4 mb-3 pb-5 d-sm-block d-md-none d-lg-none">
           <div className="d-grid gap-2 text-center">
           <Link
