@@ -100,7 +100,7 @@ function Hero() {
             </li>
           </ul>
           <p>
-            <strong>2006</strong>: Undangan pertemuan Mitra Praja Utama MPU ke-2 (Sindhu Beach Hotel)
+            <strong>2006</strong> Undangan pertemuan Mitra Praja Utama MPU ke-2 (Sindhu Beach Hotel)
           </p>
           <p>
             <strong>2007</strong>
