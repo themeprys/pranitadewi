@@ -35,7 +35,7 @@ function Hero() {
           <p className="pran_desktoponly">Beberapa puisinya pernah dimuat di Kompas, Koran Tempo, Media Indonesia, Bali Post, Majalah Sastra Horison, Jurnal BlockNot Poetry, Jurnal Sundih, Jurnal Sajak, Basa Basi.co, Buruan.co dan berbagai media lainnya.</p>
           <p className="pran_desktoponly">Beberapa puisinya juga diterjemahkan ke dalam Bahasa Prancis, bahasa Inggris, dan bahasa Thailand, dan masuk dalam sejumlah antologi, yakni Antologi Couleur Femme yang diterbitkan sebagai salah satu tema acara sastra Prancis Le Printemps des Poètes, Antologi Puisi Penyair Singapore – Indonesia oleh Majelis Sastra Asia Tenggara, dan Antologi Wanna Malai sastra Thailand – Indonesia oleh Dewan Kesenian Jakarta.</p>                
           <p className="pran_desktoponly">Saat ini menggeluti dunia literasi dan industri kreatif. Kini tinggal dan bekerja di Bali, Indonesia</p> */}
-          <div className="mt-4 mb-3 pb-5 d-sm-block d-md-none d-lg-none">
+          <div className="mt-4 d-sm-block d-md-none d-lg-none">
           <div className="d-grid gap-2 text-center">
           <Link
               href="/about"

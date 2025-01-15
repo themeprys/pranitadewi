@@ -5,11 +5,13 @@ import Stack from './Stack'
 import Porto from './Porto'
 import Leads from './Leads'
 import Skills from './Skills'
+import BookOrder from './BookOrder'
 
 const Heropage = () => {
   return (
     <div>
         <Hero />
+        <BookOrder />
         {/* <Skills /> */}
         {/* <Intro /> */}
         {/* <Stack /> */}
