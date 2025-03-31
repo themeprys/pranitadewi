@@ -53,6 +53,119 @@ function Hero() {
           </p>
           <hr/>
           <h3 className="mb-3">Penghargaan dan Prestasi</h3>
+
+          <p>
+            <strong>2024</strong>
+          </p>
+          <ul>
+            <li>Pembicara di Ubud Writers & Readers, Bali</li>
+            <li>Pembicara di APWT Asia Pacific Writers and Translator yang diselenggarakan di Chiang Mai, Thailand</li>
+            <li>Dewan Juri Penulisan Cerita Pendek Se-Indonesia oleh Kementerian Pendidikan Nasional di Jakarta</li>
+            <li>⁠Puisinya yang berbahasa inggris dimuat di Porch Literary Magazine #SoutheastAsianVoices</li>
+            <li>⁠Puisinya dimuat di Kompas</li>
+            <li>⁠Buku Puisinya “Nyawa Tinggallah Sejenak Lebih Lama” menjadi Nomine Buku Sastra Pilihan Tempo 2024</li>
+            </ul>
+          <p>
+            <strong>2023</strong> Antologi Sepayung (Festival Sepayung)
+          </p>
+          <p>
+            <strong>2021</strong> Antologi Puisi Jazirah 8 (Festival Sastra Internasional Gunung
+              Bintan)
+          </p>
+          <p>
+            <strong>2019</strong>
+          </p>
+          <ul>
+            <li>Undangan Seminar Internasional Sastra Indonesia (Bali)</li>
+            <li>Antologi Puisi &quot;Bandara dan Laba-laba&quot;</li>
+          </ul>
+          <p>
+            <strong>2018</strong> Antologi Puisi &quot;Saron&quot;
+          </p>
+          <p>
+            <strong>2017</strong> Puisinya dimuat di basabasi.co
+          </p>
+          <p>
+            <strong>2016</strong>
+          </p>
+          <ul>
+            <li>
+              Seratus Puisi Terbaik, Antologi &quot;Gelombang Puisi
+              Maritim&quot; (Dewan Kesenian Banten)
+            </li>
+            <li>
+              Antologi Puisi &quot;Klungkung: Tanah Tua, Tanah Cinta&quot;
+              (Yayasan Museum Nyoman Gunarsa)
+            </li>
+          </ul>
+          <p>
+            <strong>2015</strong> Antologi Puisi &quot;Tonggak Tegak Toleransi&quot; (Mitra Praja
+              Utama MPU X, Kupang, NTT)
+          </p>
+
+          <p>
+            <strong>2014</strong> Antologi Puisi Wanna Malai (Thailand)
+          </p>
+          <p>
+            <strong>2012</strong>
+          </p>
+          <ul>
+            <li>Undangan pertemuan Majelis Sastra Asia Tenggara (MASTERA)</li>
+            <li>Undangan Pertemuan Penyair Indonesia (Pekanbaru, Riau)</li>
+          </ul>
+          <p>
+            <strong>2008</strong>
+          </p>
+          <ul>
+            <li>
+              Undangan pertemuan Mitra Praja Utama MPU III (Lembang, Jawa Barat)
+            </li>
+            <li>
+              Cerpen dalam Antologi Cerita Kerakyatan &quot;Titian&quot;
+              (Kokoesan)
+            </li>
+            <li>Juara II Singa Ambara Reja Award</li>
+          </ul>
+          <p>
+            <strong>2007</strong>
+          </p>
+          <ul>
+            <li>Undangan pertemuan penyair muda 4 kota (Yogyakarta)</li>
+            <li>
+              Undangan delapan penyair muda baca puisi (Teater Utan Kayu
+              Jakarta)
+            </li>
+          </ul>
+
+
+
+          <p>
+            <strong>2006</strong> Undangan pertemuan Mitra Praja Utama MPU ke-2 (Sindhu Beach Hotel)
+          </p>
+
+
+          <p>
+            <strong>2004</strong>
+          </p>
+          <ul>
+            <li>
+              Juara I Lomba Baca Puisi se-Denpasar (Pesta Seni Remaja Kota
+              Denpasar)
+            </li>
+            <li>
+              Nominasi &quot;Krakatau Award&quot; Lomba Menulis Puisi Nasional
+              (Dewan Kesenian Lampung)
+            </li>
+            <li>
+              Juara I Lomba Deklamasi Puisi se-Bali dan Juara II serta III Lomba
+              Cipta Puisi Pelajar se-Bali (Teater Angin SMU 1 Denpasar)
+            </li>
+            <li>
+              Juara I Sayembara Penulisan Puisi se-Bali dan Juara Harapan III
+              Sayembara Penulisan Cerpen se-Bali (Balai Bahasa Denpasar)
+            </li>
+          </ul>
+
           <p>
             <strong>2003</strong>
           </p>
@@ -78,100 +191,6 @@ function Hero() {
               (Komunitas Jurnalis Buleleng), antologi &quot;Jendela&quot;
             </li>
           </ul>
-          <p>
-            <strong>2004</strong>
-          </p>
-          <ul>
-            <li>
-              Juara I Lomba Baca Puisi se-Denpasar (Pesta Seni Remaja Kota
-              Denpasar)
-            </li>
-            <li>
-              Nominasi &quot;Krakatau Award&quot; Lomba Menulis Puisi Nasional
-              (Dewan Kesenian Lampung)
-            </li>
-            <li>
-              Juara I Lomba Deklamasi Puisi se-Bali dan Juara II serta III Lomba
-              Cipta Puisi Pelajar se-Bali (Teater Angin SMU 1 Denpasar)
-            </li>
-            <li>
-              Juara I Sayembara Penulisan Puisi se-Bali dan Juara Harapan III
-              Sayembara Penulisan Cerpen se-Bali (Balai Bahasa Denpasar)
-            </li>
-          </ul>
-          <p>
-            <strong>2006</strong> Undangan pertemuan Mitra Praja Utama MPU ke-2 (Sindhu Beach Hotel)
-          </p>
-          <p>
-            <strong>2007</strong>
-          </p>
-          <ul>
-            <li>Undangan pertemuan penyair muda 4 kota (Yogyakarta)</li>
-            <li>
-              Undangan delapan penyair muda baca puisi (Teater Utan Kayu
-              Jakarta)
-            </li>
-          </ul>
-          <p>
-            <strong>2008</strong>
-          </p>
-          <ul>
-            <li>
-              Undangan pertemuan Mitra Praja Utama MPU III (Lembang, Jawa Barat)
-            </li>
-            <li>
-              Cerpen dalam Antologi Cerita Kerakyatan &quot;Titian&quot;
-              (Kokoesan)
-            </li>
-            <li>Juara II Singa Ambara Reja Award</li>
-          </ul>
-          <p>
-            <strong>2012</strong>
-          </p>
-          <ul>
-            <li>Undangan pertemuan Majelis Sastra Asia Tenggara (MASTERA)</li>
-            <li>Undangan Pertemuan Penyair Indonesia (Pekanbaru, Riau)</li>
-          </ul>
-          <p>
-            <strong>2014</strong> Antologi Puisi Wanna Malai (Thailand)
-          </p>
-          <p>
-            <strong>2015</strong> Antologi Puisi &quot;Tonggak Tegak Toleransi&quot; (Mitra Praja
-              Utama MPU X, Kupang, NTT)
-          </p>
-          <p>
-            <strong>2016</strong>
-          </p>
-          <ul>
-            <li>
-              Seratus Puisi Terbaik, Antologi &quot;Gelombang Puisi
-              Maritim&quot; (Dewan Kesenian Banten)
-            </li>
-            <li>
-              Antologi Puisi &quot;Klungkung: Tanah Tua, Tanah Cinta&quot;
-              (Yayasan Museum Nyoman Gunarsa)
-            </li>
-          </ul>
-          <p>
-            <strong>2017</strong> Puisinya dimuat di basabasi.co
-          </p>
-          <p>
-            <strong>2018</strong> Antologi Puisi &quot;Saron&quot;
-          </p>
-          <p>
-            <strong>2019</strong>
-          </p>
-          <ul>
-            <li>Undangan Seminar Internasional Sastra Indonesia (Bali)</li>
-            <li>Antologi Puisi &quot;Bandara dan Laba-laba&quot;</li>
-          </ul>
-          <p>
-            <strong>2021</strong> Antologi Puisi Jazirah 8 (Festival Sastra Internasional Gunung
-              Bintan)
-          </p>
-          <p>
-            <strong>2023</strong> Antologi Sepayung (Festival Sepayung)
-          </p>
           <hr/>
           <h3 className="mb-3">Publikasi dan Terjemahan</h3>
           <ul>
