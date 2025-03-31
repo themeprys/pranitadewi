@@ -53,17 +53,25 @@ function Hero() {
           </p>
           <hr/>
           <h3 className="mb-3">Penghargaan dan Prestasi</h3>
-
+          <p>
+            <strong>2024</strong>
+          </p>
+          <ul>
+            <li>Panelis Diskusi di Samsara Literary Festival, Karangasem, Bali</li>
+            <li>Membawakan Monolog di March March March Komunitas Mahima, Singaraja, Bali</li>            
+          </ul>
           <p>
             <strong>2024</strong>
           </p>
           <ul>
             <li>Pembicara di Ubud Writers & Readers, Bali</li>
+            <li>Pemateri Workshop dan Dewan Juri Unspoken Poetry Slam di Singaraja Literary Festival, Bali</li>
             <li>Pembicara di APWT Asia Pacific Writers and Translator yang diselenggarakan di Chiang Mai, Thailand</li>
             <li>Dewan Juri Penulisan Cerita Pendek Se-Indonesia oleh Kementerian Pendidikan Nasional di Jakarta</li>
             <li>⁠Puisinya yang berbahasa inggris dimuat di Porch Literary Magazine #SoutheastAsianVoices</li>
-            <li>⁠Puisinya dimuat di Kompas</li>
+            <li>⁠Puisinya dimuat di Kompas.id</li>
             <li>⁠Buku Puisinya “Nyawa Tinggallah Sejenak Lebih Lama” menjadi Nomine Buku Sastra Pilihan Tempo 2024</li>
+            <li>Cerpennya berjudul “Cerita Kembang Gula“ diterbitkan dalam antologi cerpen “Manusia Manusia“</li>
             </ul>
           <p>
             <strong>2023</strong> Antologi Sepayung (Festival Sepayung)
