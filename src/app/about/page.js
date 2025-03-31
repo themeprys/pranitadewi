@@ -54,7 +54,7 @@ function Hero() {
           <hr/>
           <h3 className="mb-3">Penghargaan dan Prestasi</h3>
           <p>
-            <strong>2024</strong>
+            <strong>2025</strong>
           </p>
           <ul>
             <li>Panelis Diskusi di Samsara Literary Festival, Karangasem, Bali</li>
