@@ -18,8 +18,8 @@ function Hero() {
         <div className="col-12 d-sm-block d-md-none d-lg-none text-center">
           <Image
             alt="Pranita Dewi"
-            width={150}
-            height={150}
+            width={350}
+            height={350}
             src="/pranitadewi.webp"
             className="img-fluid mb-5 shadow thm_profilepic"
           />

@@ -1,41 +1,33 @@
 import React from "react";
 import Link from "next/link";
-import dynamic from 'next/dynamic';
-
-// Lazy load icons
-const HomeIcon = dynamic(() => import('./icons/HomeIcon'), { ssr: false });
-const PersonIcon = dynamic(() => import('./icons/PersonIcon'), { ssr: false });
-const SearchIcon = dynamic(() => import('./icons/SearchIcon'), { ssr: false });
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome, faUser, faBook } from "@fortawesome/free-solid-svg-icons";
 
 function Bottomnav() {
   return (
-    <nav className="navbar navbar-light bg-light navbar-expand fixed-bottom d-md-none d-lg-none d-xl-none shadow-sm">
-      <ul className="navbar-nav nav-justified w-100">
-        <li className="nav-item">
-          <Link href="/" className="nav-link text-center">
-            <HomeIcon />
-            <span className="small">Home</span>
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link href="/about" className="nav-link text-center">
-            <PersonIcon />
-            <span className="small">About</span>
-          </Link>
-        </li>               
-        <li className="nav-item">
-          <Link href="/blog" className="nav-link text-center">
-            <PersonIcon />
-            <span className="small">Blog</span>
-          </Link>
-        </li>        
-        <li className="nav-item">
-          <Link href="/search" className="nav-link text-center">
-            <SearchIcon />
-            <span className="small">Search</span>
-          </Link>
-        </li>
-      </ul>
+    <nav className="navbar fixed-bottom bg-black text-white d-md-none">
+      <div className="container">
+        <div className="row w-100">
+          <div className="col text-center">
+            <Link href="/" className="nav-link text-white">
+              <FontAwesomeIcon icon={faHome} className="fs-4" />
+              <div className="small">Beranda</div>
+            </Link>
+          </div>
+          <div className="col text-center">
+            <Link href="/about" className="nav-link text-white">
+              <FontAwesomeIcon icon={faUser} className="fs-4" />
+              <div className="small">Tentang</div>
+            </Link>
+          </div>
+          <div className="col text-center">
+            <Link href="/blog" className="nav-link text-white">
+              <FontAwesomeIcon icon={faBook} className="fs-4" />
+              <div className="small">Blog</div>
+            </Link>
+          </div>
+        </div>
+      </div>
     </nav>
   );
 }
