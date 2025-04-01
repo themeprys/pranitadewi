@@ -1,16 +1,9 @@
 import React from "react";
 import Link from "next/link";
-import { PT_Sans } from 'next/font/google';
-
-const ptSans = PT_Sans({
-  subsets: ['latin'],
-  display: 'swap',
-  weight: ['400', '700'],
-});
 
 function Header() {
   return (
-    <header className={`pb-3 mb-5 border-bottom ${ptSans.className}`}>
+    <header className="pb-3 mb-5 border-bottom">
       <div className="row align-items-center">
         <div className="col-md-4">
           <Link
