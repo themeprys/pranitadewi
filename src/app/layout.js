@@ -3,6 +3,7 @@ import './styles/bootstrap.css'
 import dynamic from 'next/dynamic'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Breadcrumb from './components/Breadcrumb'
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 // import Bottomnav from './components/Bottomnav'
@@ -46,6 +47,7 @@ export default function RootLayout({ children }) {
           <div className="row">
             <div className="col-lg-8 mx-auto">
               <Header />
+              <Breadcrumb />
               <main className="py-4">
                 {children}
               </main>

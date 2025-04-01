@@ -37,8 +37,8 @@ export default async function BlogPage() {
   });
 
   return (
-    <div className="container py-5">
-      <h1 className="mb-5">Blog</h1>
+    <div className="container blog-container px-0">
+      <h1 className="mb-4">Blog</h1>
       <div className="row">
         {sortedPosts.map((post) => (
           <div key={post.id} className="col-md-6 mb-4">
