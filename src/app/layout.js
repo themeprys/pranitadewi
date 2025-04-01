@@ -39,13 +39,19 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body className="master_page">
-        <div className='col-lg-8 mx-auto p-4 pt-md-5'>
-        <Header /> 
-        {children}
-        <Bottomnav />
-        <Footer />
-        </div>        
-        </body>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 mx-auto">
+              <Header />
+              <main className="py-4">
+                {children}
+              </main>
+              <Bottomnav />
+              <Footer />
+            </div>
+          </div>
+        </div>
+      </body>
     </html>
   )
 }
