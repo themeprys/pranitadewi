@@ -9,8 +9,16 @@ async function getBlogPosts() {
       type: 'blogs',
       props: 'id,title,slug,metadata',
       limit: 10,
-      sort: '-metadata.tanggal_artikel,-created_at'
+      sort: '-metadata.tanggal_artikel'
     });
+    
+    // Log the posts to check the data
+    console.log('Blog posts:', posts.objects.map(post => ({
+      title: post.title,
+      date: post.metadata?.tanggal_artikel,
+      formattedDate: post.metadata?.tanggal_artikel ? new Date(post.metadata.tanggal_artikel).toLocaleDateString('id-ID') : 'No date'
+    })));
+    
     return posts.objects;
   } catch (error) {
     console.error('Error fetching blog posts:', error);
@@ -20,12 +28,19 @@ async function getBlogPosts() {
 
 export default async function BlogPage() {
   const posts = await getBlogPosts();
+  
+  // Sort posts manually as a fallback
+  const sortedPosts = [...posts].sort((a, b) => {
+    const dateA = a.metadata?.tanggal_artikel ? new Date(a.metadata.tanggal_artikel) : new Date(0);
+    const dateB = b.metadata?.tanggal_artikel ? new Date(b.metadata.tanggal_artikel) : new Date(0);
+    return dateB - dateA; // Sort in descending order
+  });
 
   return (
     <div className="container py-5">
       <h1 className="mb-5">Blog</h1>
       <div className="row">
-        {posts.map((post) => (
+        {sortedPosts.map((post) => (
           <div key={post.id} className="col-md-6 mb-4">
             <Link 
               href={`/blog/${post.slug}`}
