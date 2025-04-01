@@ -16,6 +16,7 @@ function Header() {
           <Link
             href="/"
             className="text-body-emphasis text-decoration-none"
+            prefetch={true}
           >
             <h1 className="fs-4 mb-0 fw-bold">
               Pranita Dewi</h1>
@@ -33,13 +34,13 @@ function Header() {
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <Link href="/" className="nav-link fw-bold fs-5">Beranda</Link>
+                    <Link href="/" className="nav-link fw-bold fs-5" prefetch={true}>Beranda</Link>
                   </li>
                   <li className="nav-item">
-                    <Link href="/about" className="nav-link fw-bold fs-5">Tentang Saya</Link>
+                    <Link href="/about" className="nav-link fw-bold fs-5" prefetch={true}>Tentang Saya</Link>
                   </li>
                   <li className="nav-item">
-                    <Link href="/blog" className="nav-link fw-bold fs-5">Blog</Link>
+                    <Link href="/blog" className="nav-link fw-bold fs-5" prefetch={true}>Blog</Link>
                   </li>
                 </ul>
               </div>

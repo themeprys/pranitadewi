@@ -9,11 +9,13 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 import { PT_Sans } from 'next/font/google'
 
-//👇 Configure our font object
+//👇 Configure our font object with preload
 const ptSans = PT_Sans({
   subsets: ['latin'],
   display: 'swap',
   weight: ['400', '700'],
+  preload: true,
+  adjustFontFallback: true,
 })
 
 export const metadata = {
@@ -25,6 +27,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={ptSans.className}>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      </head>
       <body className="master_page">
         <div className='col-lg-8 mx-auto p-4 pt-md-5'>
         <Header /> 
