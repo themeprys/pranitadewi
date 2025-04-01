@@ -1,10 +1,16 @@
 {
   "version": 2,
-  "buildCommand": "next build",
-  "devCommand": "next dev",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "nextjs",
   "regions": ["sin1"],
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
   "env": {
     "COSMIC_BUCKET_SLUG": "@cosmic_bucket_slug",
     "COSMIC_READ_KEY": "@cosmic_read_key",
