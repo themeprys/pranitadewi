@@ -12,8 +12,8 @@
     }
   ],
   "env": {
-    "COSMIC_BUCKET_SLUG": "@COSMIC_BUCKET_SLUG",
-    "COSMIC_READ_KEY": "@COSMIC_READ_KEY",
-    "NEXT_PUBLIC_SITE_URL": "@NEXT_PUBLIC_SITE_URL"
+    "COSMIC_BUCKET_SLUG": "@cosmic_bucket_slug",
+    "COSMIC_READ_KEY": "@cosmic_read_key",
+    "NEXT_PUBLIC_SITE_URL": "@next_public_site_url"
   }
 } 
