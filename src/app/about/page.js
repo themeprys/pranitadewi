@@ -226,13 +226,13 @@ function Hero() {
           <h3 className="mb-3">Narahubung:</h3>
           <ul>
             <li aria-level="1">Surel: duniapranita@gmail.com</li>
-            <li aria-level="1">No Telp: +6288812345678</li>
-            <li aria-level="1">
+            <li aria-level="1">Contact Person: +6288812345678</li>
+            {/* <li aria-level="1">
               Media Sosial:{" "}
               <a target="_blank" href="https://www.instagram.com/pranitadewi/">
                 LinkedIn
               </a>
-            </li>
+            </li> */}
           </ul>
           {/* <p>
             <strong>

@@ -7,9 +7,9 @@ function Footer() {
     <div className="text-dark border-0 mt-5">
       <div className="container text-center">
         <div className="row">
-          <div className="col pt-4">
+          <div className="col pt-4 mb-5">
             <p>
-              Pranita Dewi <FontAwesomeIcon icon={faCreativeCommons} /> 2024 - 2025.<br/>All Rights Reserved
+              Pranita Dewi <FontAwesomeIcon icon={faCreativeCommons} /> 2024 - 2025<br/>All Rights Reserved
             </p>
           </div>
         </div>
