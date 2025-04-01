@@ -1,19 +1,27 @@
+/* Import Bootstrap components */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Custom styles */
 .master_page {
-    background: url(/bg-light.webp) no-repeat center center fixed;
+    background: url(/10246986.webp) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
 }
 
 .thm_headerlinks a {
     text-decoration: underline;
     color: #333;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 * {
-    font-family: "PT Sans", sans-serif;
+    font-family: var(--font-lato), sans-serif;
 }
 
 h1,
@@ -21,20 +29,22 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: "PT Sans", sans-serif;
+    font-family: var(--font-lato), sans-serif;
     font-weight: 700;
+    letter-spacing: -0.02em;
 }
 
 div > a,
 span > a,
 li > a  {
     color: #333;
+    font-weight: 400;
 }
 
 a.thm_cta {
-    font-size: 15px;
-    width: 100%;
     font-size: 16px;
+    width: 100%;
+    font-weight: 700;
 }
 
 .thm_profilepic {
@@ -46,11 +56,12 @@ a.thm_cta {
     font-size: 20px;
     font-weight: 700;
     padding-bottom: 10px;
+    letter-spacing: -0.01em;
 }
 
 .thm_formconsult {
     background: #eee;
-    padding: 30px
+    padding: 30px;
 }
 
 .thm_backbutton {
@@ -61,25 +72,46 @@ a.thm_cta {
     float: right;
 }
 
-.master_page {
-    margin-bottom: 60px;
-}
-
 .pran_heading {
     width: 90%;
 }
 
+/* Navigation styles */
+.navbar {
+    padding: 0.5rem 1rem;
+    background-color: transparent
+}
+
+.nav-link {
+    color: #333;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.nav-link svg {
+    margin-bottom: 0.25rem;
+}
+
+/* Responsive styles */
 @media only screen and (min-width: 600px) {
     .pran_desktoponly {
         display: block !important;
     }
+    
     a.thm_cta {
-        font-size: 15px;
         width: 300px;
-        font-size: 16px;
     }
+    
     .pran_hero {
-        padding-right:50px !important;
+        padding-right: 50px !important;
     }    
 }
 
@@ -88,5 +120,23 @@ a.thm_cta {
 }
 
 .pran_hero {
-    padding-right:0px;
+    padding-right: 0px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0.25rem 0.5rem;
+    }
+    
+    .nav-link {
+        padding: 0.25rem;
+    }
+}
+
+.loading-placeholder {
+    height: 56px;
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }    

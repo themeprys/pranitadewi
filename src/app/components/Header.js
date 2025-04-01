@@ -37,7 +37,7 @@ function Header() {
                     <Link href="/" className="nav-link fw-bold fs-5" prefetch={true}>Beranda</Link>
                   </li>
                   <li className="nav-item">
-                    <Link href="/about" className="nav-link fw-bold fs-5" prefetch={true}>Tentang Saya</Link>
+                    <Link href="/about" className="nav-link fw-bold fs-5" prefetch={true}>Tentang</Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/blog" className="nav-link fw-bold fs-5" prefetch={true}>Blog</Link>
@@ -49,8 +49,8 @@ function Header() {
         </div>
         <div className="col-md-4 text-md-end">
           <div className="thm_headerlinks">
-            <p className="mb-0"><a target="_blank" href="https://linkedin.com/in/pranitadewi">https://linkedin.com/in/pranitadewi</a><br/>
-            <a href="mailto:duniapranita@gmail.com">duniapranita@gmail.com</a></p>
+            {/* <p className="mb-0"><a target="_blank" href="https://linkedin.com/in/pranitadewi">https://linkedin.com/in/pranitadewi</a><br/> */}
+            <p><a href="mailto:duniapranita@gmail.com">duniapranita@gmail.com</a></p>
           </div>
         </div>
       </div>

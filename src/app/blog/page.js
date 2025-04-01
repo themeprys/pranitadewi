@@ -44,23 +44,23 @@ export default async function BlogPage() {
                   </div>
                 )}
                 <div className="card-body">
-                  <h2 className="card-title h4 text-dark">{post.title}</h2>
-                  {post.metadata?.tanggal_artikel && (
-                    <small className="text-muted">
-                      {new Date(post.metadata.tanggal_artikel).toLocaleDateString('id-ID', {
-                        year: 'numeric',
-                        month: 'long',
-                        day: 'numeric'
-                      })}
-                    </small>
-                  )}
-                  {post.metadata?.sumber_artikel && (
-                    <div className="mt-2">
-                      <small className="text-muted">
+                  <h2 className="card-title h4 text-dark fw-bold">{post.title}</h2>
+                  <div className="d-flex justify-content-between align-items-center text-muted">
+                    {post.metadata?.tanggal_artikel && (
+                      <small>
+                        {new Date(post.metadata.tanggal_artikel).toLocaleDateString('id-ID', {
+                          year: 'numeric',
+                          month: 'long',
+                          day: 'numeric'
+                        })}
+                      </small>
+                    )}
+                    {post.metadata?.sumber_artikel && (
+                      <small>
                         Sumber: {post.metadata.sumber_artikel}
                       </small>
-                    </div>
-                  )}
+                    )}
+                  </div>
                 </div>
               </div>
             </Link>
