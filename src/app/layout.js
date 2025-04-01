@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 // import Bottomnav from './components/Bottomnav'
+// test
 config.autoAddCss = false
 import { PT_Sans } from 'next/font/google'
 
