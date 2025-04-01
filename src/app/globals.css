@@ -1,4 +1,3 @@
-
 .master_page {
     background: url(/bg-light.webp) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -13,33 +12,36 @@
     font-weight: bold;
 }
 
-/* * {
-    font-family: "Open Sans", serif;
-} */
+* {
+    font-family: "PT Sans", sans-serif;
+}
 
 h1,
 h2,
 h3,
 h4,
 h5 {
-    /* font-family: "PT Sans", serif; */
+    font-family: "PT Sans", sans-serif;
     font-weight: 700;
 }
+
 div > a,
 span > a,
 li > a  {
-    color: #333 ;
+    color: #333;
 }
+
 a.thm_cta {
     font-size: 15px;
     width: 100%;
     font-size: 16px;
 }
+
 .thm_profilepic {
     border-radius: 50%;
     display: inline-block;
-
 }
+
 .thm_introheading {
     font-size: 20px;
     font-weight: 700;

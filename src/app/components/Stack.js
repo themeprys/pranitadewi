@@ -2,10 +2,17 @@ import React from "react";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDashboard } from "@fortawesome/free-solid-svg-icons";
+import { PT_Sans } from 'next/font/google';
+
+const ptSans = PT_Sans({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['400', '700'],
+});
 
 function Stack() {
   return (
-    <section className="thm_feature mt-5 mb-3">
+    <section className={`thm_feature mt-5 mb-3 ${ptSans.className}`}>
       <div className="row featurette">
         <div className="col order-md-2">
         <h2 className="thm_introheading">

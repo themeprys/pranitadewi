@@ -1,9 +1,16 @@
 import React from "react";
 import Link from "next/link";
+import { PT_Sans } from 'next/font/google';
+
+const ptSans = PT_Sans({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['400', '700'],
+});
 
 function Bottomnav() {
   return (
-    <nav className="navbar navbar-light bg-light navbar-expand fixed-bottom d-md-none d-lg-none d-xl-none shadow">
+    <nav className={`navbar navbar-light bg-light navbar-expand fixed-bottom d-md-none d-lg-none d-xl-none shadow ${ptSans.className}`}>
       <ul className="navbar-nav nav-justified w-100">
         <li className="nav-item">
           <Link href="/" className="nav-link text-center">

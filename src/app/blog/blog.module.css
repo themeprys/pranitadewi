@@ -1,0 +1,157 @@
+.blog-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.blog-content h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.blog-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 1.25rem;
+  color: #2a2a2a;
+  font-weight: 600;
+}
+
+.blog-content p {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.blog-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.blog-content a {
+  color: #0d6efd;
+  text-decoration: none;
+  border-bottom: 1px solid #0d6efd;
+}
+
+.blog-content a:hover {
+  color: #0a58ca;
+  border-bottom-color: #0a58ca;
+}
+
+.blog-content blockquote {
+  border-left: 4px solid #dee2e6;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #6c757d;
+  background-color: #f8f9fa;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.blog-content ul, 
+.blog-content ol {
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+}
+
+.blog-content li {
+  margin-bottom: 0.75rem;
+}
+
+.blog-content code {
+  background-color: #f8f9fa;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
+  color: #e83e8c;
+}
+
+.blog-content pre {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.blog-content pre code {
+  background-color: transparent;
+  padding: 0;
+  color: inherit;
+}
+
+.hover-card {
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  border: 1px solid #dee2e6;
+  cursor: pointer;
+  position: relative;
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.hover-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  opacity: 0;
+  transition: opacity 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  z-index: -1;
+}
+
+.hover-card:hover {
+  transform: scale(1.02);
+}
+
+.hover-card:hover::after {
+  opacity: 1;
+}
+
+.card-img-top {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.hover-card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  color: #1a1a1a;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+}
+
+.hover-card:hover .card-title {
+  color: #0d6efd;
+}
+
+.card-text {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.btn-dark {
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
+  transition: all 0.3s ease;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+  border-color: #333;
+} 

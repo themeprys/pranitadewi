@@ -4,11 +4,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Skills from "./Skills";
 import MultiForm from "./MultiForm";
+import { PT_Sans } from 'next/font/google';
 
+const ptSans = PT_Sans({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['400', '700'],
+});
 
 function Leads() {
   return (
-    <section className="thm_leads mt-md-5">
+    <section className={`thm_leads mt-md-5 ${ptSans.className}`}>
       <div className="row g-5">
         <div className="col-12 col-md-5 mt-2">
           <Image
@@ -29,7 +35,7 @@ function Leads() {
             consultation for your digital campaign success before launch to
             public.
           </p>
-<MultiForm />
+          <MultiForm />
           {/* <form className="thm_formconsult">
             <div className="mb-3">
               <label for="exampleInputPassword1" className="form-label">

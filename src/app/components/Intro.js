@@ -1,13 +1,17 @@
 import React from "react";
-import { Inter } from 'next/font/google'
+import { PT_Sans } from 'next/font/google'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase, faDashboard } from "@fortawesome/free-solid-svg-icons";
 
-const inter = Inter({ subsets: ['latin'],display: "swap" })
+const ptSans = PT_Sans({
+  subsets: ['latin'],
+  display: "swap",
+  weight: ['400', '700'],
+})
 
 function Intro() {
   return (
-    <div className="row g-5">
+    <div className={`row g-5 ${ptSans.className}`}>
       <div className="col-md-6">
         <h2 className="thm_introheading">
           <FontAwesomeIcon icon={faDashboard} /> Startup <span className="text-body-secondary">Projects</span>

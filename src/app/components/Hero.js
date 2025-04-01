@@ -3,11 +3,17 @@ import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { PT_Sans } from 'next/font/google';
 
+const ptSans = PT_Sans({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['400', '700'],
+});
 
 function Hero() {
   return (
-    <main>
+    <main className={ptSans.className}>
       <div className="row my-5">
       <div className="col-12 d-sm-block d-md-none d-lg-none text-center">
           <Image

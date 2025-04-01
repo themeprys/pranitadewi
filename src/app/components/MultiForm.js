@@ -7,7 +7,13 @@ import ProjectInfo from "./ProjectInfo";
 import IdentityInfo from "./IdentityInfo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
-// import { Form } from "react-bootstrap";
+import { PT_Sans } from 'next/font/google';
+
+const ptSans = PT_Sans({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['400', '700'],
+});
 
 const MultiForm = () => {
   const [values, setValues] = useState({
@@ -42,7 +48,7 @@ const MultiForm = () => {
 
   console.log(values);
   return (
-    <div className="thm_formconsult">
+    <div className={`thm_formconsult ${ptSans.className}`}>
       <div>
         {step > 1 ? (
           <div class="thm_backbutton">
@@ -51,28 +57,14 @@ const MultiForm = () => {
             </button>
           </div>
         ) : null}
-        {/* <div class="d-grid gap-2">
-          <button className="btn btn-primary" onClick={nextStep}>
-            {step === 2 ? "Submit" : "Continue"}{" "}
-            <FontAwesomeIcon icon={faArrowRight} />
-          </button>
-        </div> */}
       </div>
       {
         {
           1: <ProjectInfo handleChange={handleChange} />,
           2: <IdentityInfo handleChange={handleChange} />,
-          // 3: <LocationInfo handleChange={handleChange} />,
         }[step]
       }
       <div>
-        {/* {step > 1 ? (
-          <div class="d-grid gap-2">
-            <button className="btn" onClick={prevStep}>
-              <FontAwesomeIcon icon={faArrowLeft} /> Back
-            </button>
-          </div>
-        ) : null} */}
         <div class="d-grid gap-2">
           <button className="btn btn-primary" onClick={nextStep}>
             {step === 2 ? "Submit" : "Continue"}{" "}
