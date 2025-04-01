@@ -16,6 +16,11 @@
     padding: 2rem 0;
 }
 
+.container-fluid {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
 .thm_headerlinks a {
     text-decoration: underline;
     color: #333;

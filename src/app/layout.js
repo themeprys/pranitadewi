@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={`master_page ${lato.className}`}>
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
             <div className="col-lg-8 mx-auto">
               <Header />
