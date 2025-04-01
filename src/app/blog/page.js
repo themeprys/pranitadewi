@@ -9,7 +9,7 @@ async function getBlogPosts() {
       type: 'blogs',
       props: 'id,title,slug,metadata',
       limit: 10,
-      sort: '-created_at'
+      sort: '-metadata.tanggal_artikel,-created_at'
     });
     return posts.objects;
   } catch (error) {
