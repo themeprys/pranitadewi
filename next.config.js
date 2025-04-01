@@ -43,22 +43,6 @@ const nextConfig = {
       }
     }
 
-    // Remove custom CSS configuration to use Next.js built-in CSS support
-    config.module.rules = config.module.rules.map((rule) => {
-      if (rule.oneOf) {
-        rule.oneOf = rule.oneOf.map((oneOfRule) => {
-          if (oneOfRule.test && oneOfRule.test.toString().includes('css')) {
-            return {
-              ...oneOfRule,
-              use: ['next-style-loader', 'css-loader'],
-            }
-          }
-          return oneOfRule
-        })
-      }
-      return rule
-    })
-
     return config
   },
 }
