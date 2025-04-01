@@ -42,6 +42,21 @@ const nextConfig = {
         },
       }
     }
+
+    // Ensure CSS is processed correctly
+    config.module.rules.push({
+      test: /\.css$/,
+      use: [
+        'style-loader',
+        {
+          loader: 'css-loader',
+          options: {
+            importLoaders: 1,
+          },
+        },
+      ],
+    })
+
     return config
   },
 }
