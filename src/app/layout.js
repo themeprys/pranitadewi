@@ -20,6 +20,7 @@ export const metadata = {
   description: 'Pranita Dewi adalah seorang penulis Indonesia yang mengkhususkan diri dalam puisi, prosa liris, dan cerita pendek',
 }
 
+// Main layout component with PT Sans font
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={ptSans.className}>
