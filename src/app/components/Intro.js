@@ -1,17 +1,17 @@
 import React from "react";
-import { PT_Sans } from 'next/font/google'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBriefcase, faDashboard } from "@fortawesome/free-solid-svg-icons";
+import { faDashboard, faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import { Lato } from 'next/font/google';
 
-const ptSans = PT_Sans({
+const lato = Lato({
   subsets: ['latin'],
   display: "swap",
   weight: ['400', '700'],
-})
+});
 
 function Intro() {
   return (
-    <div className={`row g-5 ${ptSans.className}`}>
+    <div className={`row g-5 ${lato.className}`}>
       <div className="col-md-6">
         <h2 className="thm_introheading">
           <FontAwesomeIcon icon={faDashboard} /> Startup <span className="text-body-secondary">Projects</span>
@@ -55,7 +55,9 @@ function Intro() {
       </div>
 
       <div className="col-md-6">
-        <h2 className="thm_introheading"><FontAwesomeIcon icon={faBriefcase} /> Personal <span className="text-body-secondary">Works</span></h2>
+        <h2 className="thm_introheading">
+          <FontAwesomeIcon icon={faBriefcase} /> Personal <span className="text-body-secondary">Works</span>
+        </h2>
         <p>
           Read more detailed instructions and documentation on using or
           contributing to Bootstrap.

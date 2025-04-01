@@ -11,7 +11,6 @@ const nextConfig = {
   generateEtags: true,
   experimental: {
     optimizeCss: true,
-    optimizePackageImports: ['@fortawesome/free-solid-svg-icons', '@fortawesome/free-brands-svg-icons'],
   },
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',

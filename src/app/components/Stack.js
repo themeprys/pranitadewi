@@ -1,36 +1,53 @@
 import React from "react";
-import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDashboard } from "@fortawesome/free-solid-svg-icons";
-import { PT_Sans } from 'next/font/google';
+import { Lato } from 'next/font/google';
 
-const ptSans = PT_Sans({
+const lato = Lato({
   subsets: ['latin'],
-  display: 'swap',
+  display: "swap",
   weight: ['400', '700'],
 });
 
 function Stack() {
   return (
-    <section className={`thm_feature mt-5 mb-3 ${ptSans.className}`}>
-      <div className="row featurette">
-        <div className="col order-md-2">
+    <section className={`py-5 ${lato.className}`}>
+      <div className="container">
         <h2 className="thm_introheading">
-          <FontAwesomeIcon icon={faDashboard} /> Selected <span className="text-body-secondary">Portfolio</span>
+          <FontAwesomeIcon icon={faDashboard} /> Tech <span className="text-body-secondary">Stack</span>
         </h2>
-          <p>
-          I help local musicians, bloggers, startups, companies and non-profit organization to write and code digital campaign that works
-          </p>
-
+        <div className="row g-4">
+          <div className="col-md-4">
+            <div className="card h-100">
+              <div className="card-body">
+                <h5 className="card-title">Frontend</h5>
+                <p className="card-text">
+                  React, Next.js, TypeScript, Tailwind CSS, Bootstrap
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card h-100">
+              <div className="card-body">
+                <h5 className="card-title">Backend</h5>
+                <p className="card-text">
+                  Node.js, Express, Python, Django, PostgreSQL, MongoDB
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card h-100">
+              <div className="card-body">
+                <h5 className="card-title">DevOps</h5>
+                <p className="card-text">
+                  Docker, Kubernetes, AWS, CI/CD, Git, Jenkins
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        {/* <div className="col-md-3 order-md-1">
-            <Image src="/porto.jpeg"
-            width="500"
-            height="500"
-            className="img-fluid"
-            alt="Priyono Santosa"
-          />
-        </div> */}
       </div>
     </section>
   );
