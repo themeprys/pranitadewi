@@ -50,7 +50,7 @@ function Header() {
         <div className="col-md-4 text-md-end">
           <div className="thm_headerlinks">
             {/* <p className="mb-0"><a target="_blank" href="https://linkedin.com/in/pranitadewi">https://linkedin.com/in/pranitadewi</a><br/> */}
-            <p><a href="mailto:duniapranita@gmail.com">duniapranita@gmail.com</a></p>
+            <p>Email: <a href="mailto:duniapranita@gmail.com">duniapranita@gmail.com</a></p>
           </div>
         </div>
       </div>
