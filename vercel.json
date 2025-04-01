@@ -10,10 +10,5 @@
       "src": "package.json",
       "use": "@vercel/next"
     }
-  ],
-  "env": {
-    "COSMIC_BUCKET_SLUG": "@cosmic_bucket_slug",
-    "COSMIC_READ_KEY": "@cosmic_read_key",
-    "NEXT_PUBLIC_SITE_URL": "@next_public_site_url"
-  }
+  ]
 } 
