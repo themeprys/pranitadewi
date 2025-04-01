@@ -1,7 +1,13 @@
+'use client';
+
 import React from "react";
 import Link from "next/link";
+import { usePathname } from 'next/navigation';
+import styles from './Header.module.css';
 
 function Header() {
+  const pathname = usePathname();
+
   return (
     <header className="border-bottom">
       <div className="row align-items-center">
@@ -24,13 +30,31 @@ function Header() {
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <Link href="/" className="nav-link fw-bold fs-5" prefetch={true}>Beranda</Link>
+                    <Link 
+                      href="/" 
+                      className={`nav-link fw-bold fs-5 ${styles.hoverBrown} ${pathname === '/' ? styles.active : ''}`} 
+                      prefetch={true}
+                    >
+                      Beranda
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <Link href="/about" className="nav-link fw-bold fs-5" prefetch={true}>Tentang</Link>
+                    <Link 
+                      href="/about" 
+                      className={`nav-link fw-bold fs-5 ${styles.hoverBrown} ${pathname === '/about' ? styles.active : ''}`} 
+                      prefetch={true}
+                    >
+                      Tentang
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <Link href="/blog" className="nav-link fw-bold fs-5" prefetch={true}>Blog</Link>
+                    <Link 
+                      href="/blog" 
+                      className={`nav-link fw-bold fs-5 ${styles.hoverBrown} ${pathname === '/blog' ? styles.active : ''}`} 
+                      prefetch={true}
+                    >
+                      Blog
+                    </Link>
                   </li>
                 </ul>
               </div>

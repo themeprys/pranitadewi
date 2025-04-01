@@ -1,0 +1,8 @@
+.hoverBrown {
+  color: #343a40 !important;
+}
+
+.hoverBrown:hover,
+.hoverBrown.active {
+  color: #000000 !important;
+} 
