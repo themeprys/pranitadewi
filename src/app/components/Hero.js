@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight, faEye, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { Lato } from 'next/font/google';
 
 const lato = Lato({
@@ -42,17 +42,37 @@ function Hero() {
                 href="/about"
                 className="btn btn-dark btn-lg px-4 me-2 thm_cta"
               >
-                <FontAwesomeIcon icon={faChevronRight} />&nbsp;&nbsp;Lihat Profil Lengkap
+                <FontAwesomeIcon icon={faEye} />&nbsp;&nbsp;Profil Lengkap
               </Link>
+              <a
+                href="https://cdn.cosmicjs.com/c9260e30-0ed6-11f0-91ec-af6adca2ead2-Curriculum-Vitae-Pranita-Dewi-Updated-April-2025.pdf"
+                className="btn btn-outline-dark btn-lg px-4 thm_cta"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faFilePdf} />&nbsp;&nbsp;Unduh CV
+              </a>
             </div>
           </div>
           <div className="mt-4 mb-3 pb-5 d-none d-md-block">
-            <Link
-              href="/about"
-              className="btn btn-dark btn-lg px-4 me-2 thm_cta"
-            >
-              <FontAwesomeIcon icon={faChevronRight} />&nbsp;&nbsp;Lihat Profil Lengkap
-            </Link>
+            <div className="d-flex gap-3">
+              <Link
+                href="/about"
+                className="btn btn-dark btn-lg px-4 thm_cta"
+                style={{ width: '200px' }}
+              >
+                <FontAwesomeIcon icon={faEye} />&nbsp;&nbsp;Profil Lengkap
+              </Link>
+              <a
+                href="https://cdn.cosmicjs.com/c9260e30-0ed6-11f0-91ec-af6adca2ead2-Curriculum-Vitae-Pranita-Dewi-Updated-April-2025.pdf"
+                className="btn btn-outline-dark btn-lg px-4 thm_cta"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ width: '200px' }}
+              >
+                <FontAwesomeIcon icon={faFilePdf} />&nbsp;&nbsp;Unduh CV
+              </a>
+            </div>
           </div>          
         </div>
         <div className="col d-none d-md-block">

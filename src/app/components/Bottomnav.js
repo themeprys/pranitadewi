@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faUser, faBook } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faUser, faBook, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 function Bottomnav() {
   return (
@@ -25,6 +25,17 @@ function Bottomnav() {
               <FontAwesomeIcon icon={faBook} className="fs-4" />
               <div className="small">Blog</div>
             </Link>
+          </div>
+          <div className="col text-center">
+            <a 
+              href="https://cdn.cosmicjs.com/c9260e30-0ed6-11f0-91ec-af6adca2ead2-Curriculum-Vitae-Pranita-Dewi-Updated-April-2025.pdf"
+              className="nav-link text-white"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faFilePdf} className="fs-4" />
+              <div className="small">CV</div>
+            </a>
           </div>
         </div>
       </div>
