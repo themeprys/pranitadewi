@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <header className="border-bottom">
-      <div className="row align-items-center">
+      <div className="row align-items-center pb-3">
         <div className="col-md-3">
           <Link
             href="/"

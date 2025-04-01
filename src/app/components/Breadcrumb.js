@@ -20,7 +20,7 @@ function Breadcrumb() {
   };
   
   return (
-    <nav aria-label="breadcrumb" className="mb-0 pt-3">
+    <nav aria-label="breadcrumb" className="mb-0 pt-3 mt-2">
       <ol className="breadcrumb">
         <li className="breadcrumb-item">
           <Link href="/" className="text-decoration-none">Beranda</Link>
