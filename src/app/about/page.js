@@ -71,8 +71,8 @@ function Hero() {
             <li>Dewan Juri Penulisan Cerita Pendek Se-Indonesia oleh Kementerian Pendidikan Nasional di Jakarta</li>
             <li>⁠Puisinya yang berbahasa inggris dimuat di Porch Literary Magazine #SoutheastAsianVoices</li>
             <li>⁠Puisinya dimuat di Kompas.id</li>
-            <li>⁠Buku Puisinya "Nyawa Tinggallah Sejenak Lebih Lama" menjadi Nomine Buku Sastra Pilihan Tempo 2024</li>
-            <li>Cerpennya berjudul "Cerita Kembang Gula" diterbitkan dalam antologi cerpen "Manusia Manusia"</li>
+            <li>⁠Buku Puisinya &quot;Nyawa Tinggallah Sejenak Lebih Lama&quot; menjadi Nomine Buku Sastra Pilihan Tempo 2024</li>
+            <li>Cerpennya berjudul &quot;Cerita Kembang Gula&quot; diterbitkan dalam antologi cerpen &quot;Manusia Manusia&quot;</li>
             </ul>
           <p>
             <strong>2023</strong> Antologi Sepayung (Festival Sepayung)

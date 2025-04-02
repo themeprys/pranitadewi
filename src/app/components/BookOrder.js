@@ -55,7 +55,7 @@ function BookOrder() {
   useEffect(() => {
     const timer = setInterval(nextSlide, 8000); // Increased to 8 seconds
     return () => clearInterval(timer);
-  }, []);
+  }, [nextSlide]);
 
   return (
     <section className="thm_feature mt-5 mb-3">
