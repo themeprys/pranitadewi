@@ -1,17 +1,14 @@
 import React from 'react'
 import Hero from './Hero'
 import BookOrder from './BookOrder'
+import LatestBlogPosts from './LatestBlogPosts'
 
 const Heropage = () => {
   return (
     <div>
         <Hero />
+        <LatestBlogPosts />
         <BookOrder />
-        {/* <Skills /> */}
-        {/* <Intro /> */}
-        {/* <Stack /> */}
-        {/* <Porto /> */}
-        {/* <Leads /> */}
     </div>    
   )
 }

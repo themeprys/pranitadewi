@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import LatestBlogPosts from "../components/LatestBlogPosts";
 
 function Hero() {
   return (
@@ -70,8 +71,8 @@ function Hero() {
             <li>Dewan Juri Penulisan Cerita Pendek Se-Indonesia oleh Kementerian Pendidikan Nasional di Jakarta</li>
             <li>⁠Puisinya yang berbahasa inggris dimuat di Porch Literary Magazine #SoutheastAsianVoices</li>
             <li>⁠Puisinya dimuat di Kompas.id</li>
-            <li>⁠Buku Puisinya “Nyawa Tinggallah Sejenak Lebih Lama” menjadi Nomine Buku Sastra Pilihan Tempo 2024</li>
-            <li>Cerpennya berjudul “Cerita Kembang Gula“ diterbitkan dalam antologi cerpen “Manusia Manusia“</li>
+            <li>⁠Buku Puisinya "Nyawa Tinggallah Sejenak Lebih Lama" menjadi Nomine Buku Sastra Pilihan Tempo 2024</li>
+            <li>Cerpennya berjudul "Cerita Kembang Gula" diterbitkan dalam antologi cerpen "Manusia Manusia"</li>
             </ul>
           <p>
             <strong>2023</strong> Antologi Sepayung (Festival Sepayung)
@@ -332,13 +333,7 @@ function Hero() {
           />
         </div>
       </div>
-      {/* 
-      <div className="mt-4 mb-3 pb-5">
-        <Link href="/about" className="btn btn-dark btn-lg px-4 me-2 thm_cta">
-          <FontAwesomeIcon icon={faFilePdf} /> Download Resume
-        </Link>
-        or <Link href="/blog">Browse my writings</Link>
-      </div> */}
+      <LatestBlogPosts />
     </main>
   );
 }
