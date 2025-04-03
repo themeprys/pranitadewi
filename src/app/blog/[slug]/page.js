@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import { headers } from 'next/headers';
 import Script from 'next/script';
+import ShareButtons from './ShareButtons';
 
 async function getBlogPost(slug) {
   try {
@@ -188,6 +189,9 @@ export default async function BlogPost({ params }) {
     }
   };
 
+  const shareUrl = `https://pranitadewi.vercel.app/blog/${post.slug}`;
+  const shareTitle = post.title;
+
   return (
     <>
       <Script
@@ -217,6 +221,8 @@ export default async function BlogPost({ params }) {
                   </div>
                 )}
               </div>
+
+              <ShareButtons url={shareUrl} title={shareTitle} />
 
               {post.metadata?.image && (
                 <div className="mb-4">
