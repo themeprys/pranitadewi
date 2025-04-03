@@ -11,15 +11,15 @@ function Header() {
   return (
     <header className="border-bottom">
       <div className="row align-items-center pb-3">
-        <div className="col-12 col-md-4 col-lg-3 mb-3 mb-md-0">
+        <div className="col-12 col-md-4 col-lg-3 mb-3 mb-md-0 pran_nav_logo">
           <Link
             href="/"
             className="text-body-emphasis text-decoration-none"
             prefetch={true}
           >
-            <h1 className="fs-1em mb-0 fw-bold">
+            <h1 className="fs-2em mb-0 fw-bold">
               Pranita Dewi</h1>
-              <span className="fs-0_8em text-body-secondary d-block"> 
+              <span className="fs-1em text-body-secondary d-block"> 
                 Penulis Puisi | Prosais | Cerpenis
               </span>
           </Link>
@@ -32,7 +32,7 @@ function Header() {
                   <li className="nav-item me-2 me-lg-3">
                     <Link 
                       href="/" 
-                      className={`nav-link fw-bold fs-0_9em ${styles.hoverBrown} ${pathname === '/' ? styles.active : ''}`} 
+                      className={`nav-link fw-bold fs-1em ${styles.hoverBrown} ${pathname === '/' ? styles.active : ''}`} 
                       prefetch={true}
                     >
                       Beranda
@@ -41,7 +41,7 @@ function Header() {
                   <li className="nav-item me-2 me-lg-3">
                     <Link 
                       href="/about" 
-                      className={`nav-link fw-bold fs-0_9em ${styles.hoverBrown} ${pathname === '/about' ? styles.active : ''}`} 
+                      className={`nav-link fw-bold fs-1em ${styles.hoverBrown} ${pathname === '/about' ? styles.active : ''}`} 
                       prefetch={true}
                     >
                       Tentang
@@ -50,7 +50,7 @@ function Header() {
                   <li className="nav-item me-2 me-lg-3">
                     <Link 
                       href="/blog" 
-                      className={`nav-link fw-bold fs-0_9em ${styles.hoverBrown} ${pathname === '/blog' ? styles.active : ''}`} 
+                      className={`nav-link fw-bold fs-1em ${styles.hoverBrown} ${pathname === '/blog' ? styles.active : ''}`} 
                       prefetch={true}
                     >
                       Blog
@@ -59,7 +59,7 @@ function Header() {
                   <li className="nav-item">
                     <Link 
                       href="https://cdn.cosmicjs.com/c9260e30-0ed6-11f0-91ec-af6adca2ead2-Curriculum-Vitae-Pranita-Dewi-Updated-April-2025.pdf" 
-                      className={`nav-link fw-bold fs-0_9em ${styles.hoverBrown}`} 
+                      className={`nav-link fw-bold fs-1em ${styles.hoverBrown}`} 
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -71,10 +71,10 @@ function Header() {
             </div>
           </nav>
         </div>
-        <div className="col-12 col-md-4 col-lg-3 text-md-end mt-3 mt-md-0">
+        <div className="col-12 col-md-4 col-lg-3 text-md-end mt-3 mt-md-0 pran_nav_cp">
           <div className="thm_headerlinks">
             {/* <p className="mb-0"><a target="_blank" href="https://linkedin.com/in/pranitadewi">https://linkedin.com/in/pranitadewi</a><br/> */}
-            <p className="mb-0 fs-0_8em">Email: <a href="mailto:duniapranita@gmail.com">duniapranita@gmail.com</a></p>
+            <p className="mb-0 fs-1em">Email: <a href="mailto:duniapranita@gmail.com">duniapranita@gmail.com</a></p>
           </div>
         </div>
       </div>

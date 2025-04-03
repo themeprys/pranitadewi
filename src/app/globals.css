@@ -121,12 +121,45 @@ a.thm_cta {
     font-size: 1em;
 }
 
+.fs-2em {
+    font-size: 2em;
+}
+
+.fs-3em {
+    font-size: 3em;
+}
+
 .fs-0_9em {
     font-size: 0.9em;
 }
 
 .fs-0_8em {
     font-size: 0.8em;
+}
+
+.fs-0_7em {
+    font-size: 0.7em;
+}
+
+.fs-0_6em {
+    font-size: 0.6em;
+}
+
+.fs-0_5em {
+    font-size: 0.5em;
+}
+
+.fs-0_4em {
+    font-size: 0.4em;
+}
+
+
+@media (max-width: 1280px) {
+
+    .fs-1em {
+        font-size: 0.8em;
+    }
+    
 }
 
 /* Header responsive styles */
@@ -179,6 +212,17 @@ a.thm_cta {
     .fs-0_8em {
         font-size: 0.7em;
     }
+    .pran_nav_cp .thm_headerlinks {
+        text-align: left !important;
+        font-size: 1.2em !important;
+    }
+    .pran_nav_cp  {
+        margin-top: 0px !important;
+    }
+    .pran_nav_logo {
+        margin-bottom: 0px !important;
+    }
+    
 }
 
 /* Card styles */
