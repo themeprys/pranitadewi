@@ -1,5 +1,8 @@
 import { cosmic } from '../config/cosmic';
 import BlogList from './components/BlogList';
+import { blogMetadata } from '../metadata';
+
+export const metadata = blogMetadata;
 
 // Add revalidation time (in seconds)
 export const revalidate = 60; // Revalidate every 60 seconds

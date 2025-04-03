@@ -4,6 +4,9 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import LatestBlogPosts from "../components/LatestBlogPosts";
+import { aboutMetadata } from '../metadata';
+
+export const metadata = aboutMetadata;
 
 function Hero() {
   return (
