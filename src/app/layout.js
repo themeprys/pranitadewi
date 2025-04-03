@@ -1,6 +1,7 @@
 import './globals.css'
 import './styles/bootstrap.css'
 import dynamic from 'next/dynamic'
+import Script from 'next/script'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Breadcrumb from './components/Breadcrumb'
@@ -43,6 +44,18 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={`master_page ${lato.className}`}>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-JDD4LN7B6W"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-JDD4LN7B6W');
+          `}
+        </Script>
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-8 mx-auto">
