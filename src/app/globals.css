@@ -116,6 +116,71 @@ a.thm_cta {
     margin-bottom: 0.25rem;
 }
 
+/* Custom font size classes */
+.fs-1em {
+    font-size: 1em;
+}
+
+.fs-0_9em {
+    font-size: 0.9em;
+}
+
+.fs-0_8em {
+    font-size: 0.8em;
+}
+
+/* Header responsive styles */
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .nav-item {
+        margin-bottom: 0.5rem;
+    }
+    
+    .thm_headerlinks {
+        text-align: center;
+    }
+    
+    .fs-1em {
+        font-size: 0.9em;
+    }
+    
+    .fs-0_9em {
+        font-size: 0.8em;
+    }
+    
+    .fs-0_8em {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-item {
+        margin-bottom: 0.75rem;
+    }
+    
+    .fs-1em {
+        font-size: 0.8em;
+    }
+    
+    .fs-0_9em {
+        font-size: 0.75em;
+    }
+    
+    .fs-0_8em {
+        font-size: 0.7em;
+    }
+}
+
 /* Card styles */
 .card {
     border: none;
